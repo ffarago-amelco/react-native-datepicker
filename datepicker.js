@@ -316,6 +316,7 @@ class DatePicker extends Component {
                         <DateTimePicker
                           value={this.state.date}
                           mode={mode}
+                          display="spinner"
                           minimumDate={minDate && this.getDate(minDate)}
                           maximumDate={maxDate && this.getDate(maxDate)}
                           onChange={this.onDateChange}
