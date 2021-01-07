@@ -1,46 +1,56 @@
 {
-  "name": "react-native-datepicker",
-  "version": "1.8.0",
-  "description": "React Native DatePicker component for both Android and iOS, useing DatePickerAndroid, TimePickerAndroid and DatePickerIOS",
-  "main": "datepicker.js",
-  "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "test": "jest --coverage",
-    "coverage": "cat ./coverage/lcov.info | coveralls",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "lint": "eslint . --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xgfe/react-native-datepicker.git"
-  },
-  "keywords": [
-    "react-native",
-    "DatePicker"
+  "_args": [
+    [
+      "github:SunlightKnight/react-native-datepicker",
+      "/Users/northernfides/Dev/ReactNative/app_pay/app"
+    ]
   ],
-  "author": "xgfe",
-  "license": "MIT",
+  "_from": "github:SunlightKnight/react-native-datepicker",
+  "_id": "react-native-datepicker@github:SunlightKnight/react-native-datepicker#79b5fdfa2271fcc7adde61ea3eaef879906a18e2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-datepicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:SunlightKnight/react-native-datepicker",
+    "rawSpec": "github:SunlightKnight/react-native-datepicker",
+    "saveSpec": "github:SunlightKnight/react-native-datepicker",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:SunlightKnight/react-native-datepicker#79b5fdfa2271fcc7adde61ea3eaef879906a18e2",
+  "_spec": "github:SunlightKnight/react-native-datepicker",
+  "_where": "/Users/northernfides/Dev/ReactNative/app_pay/app",
+  "author": {
+    "name": "xgfe"
+  },
   "bugs": {
     "url": "https://github.com/xgfe/react-native-datepicker/issues"
   },
-  "homepage": "https://github.com/xgfe/react-native-datepicker#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "dependencies": {
-    "@react-native-community/datetimepicker": "^2.3.1",
+    "@react-native-community/datetimepicker": "*",
     "moment": "^2.24.0"
   },
+  "description": "React Native DatePicker component for both Android and iOS, useing DatePickerAndroid, TimePickerAndroid and DatePickerIOS",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/runtime": "^7.9.2",
+    "@react-native-community/eslint-config": "^1.0.0",
     "babel-jest": "25.2.4",
     "coveralls": "^2.11.9",
     "cz-conventional-changelog": "^1.2.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
-    "prettier": "^2.0.2",
-    "@react-native-community/eslint-config": "^1.0.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-import": "^2.20.2",
@@ -54,15 +64,12 @@
     "jsdom-global": "^3.0.2",
     "metro-react-native-babel-preset": "^0.59.0",
     "pre-commit": "^1.2.2",
+    "prettier": "^2.0.2",
     "react": "16.11.0",
     "react-native": "0.62.0",
     "react-test-renderer": "16.11.0"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
+  "homepage": "https://github.com/xgfe/react-native-datepicker#readme",
   "jest": {
     "preset": "react-native",
     "testPathIgnorePatterns": [
@@ -70,7 +77,28 @@
       "tools/"
     ]
   },
+  "keywords": [
+    "react-native",
+    "DatePicker"
+  ],
+  "license": "MIT",
+  "main": "datepicker.js",
+  "name": "react-native-datepicker",
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgfe/react-native-datepicker.git"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "coverage": "cat ./coverage/lcov.info | coveralls",
+    "ios": "react-native run-ios",
+    "lint": "eslint . --fix",
+    "start": "react-native start",
+    "test": "jest --coverage"
+  },
+  "version": "1.8.0"
 }
