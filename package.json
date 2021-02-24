@@ -36,10 +36,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "dependencies": {
-    "@react-native-community/datetimepicker": "^3.0.9",
-    "moment": "^2.24.0"
-  },
   "description": "React Native DatePicker component for both Android and iOS, useing DatePickerAndroid, TimePickerAndroid and DatePickerIOS",
   "devDependencies": {
     "@babel/core": "^7.9.0",
